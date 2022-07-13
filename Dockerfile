@@ -18,9 +18,7 @@ COPY . /app
 
 WORKDIR /app
 
-RUN virtualenv -p /usr/bin/python3 venv
 
-RUN . ./venv/bin/activate
 
 
 
